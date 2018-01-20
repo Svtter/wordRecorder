@@ -9,5 +9,5 @@ install:
 	pip install pipenv
 	pipenv install
 
-stop:
-
+show:
+	cat ~/Config/word.json
