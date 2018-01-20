@@ -6,7 +6,8 @@ clean:
 
 install:
 	mkdir ~/Config
-	pip install -r requirements.pip
+	pip install pipenv
+	pipenv install
 
 show:
 	cat ~/Config/word.json
