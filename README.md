@@ -14,6 +14,10 @@
 `make run`
 
 
+## 修改生词保存路径
+
+修改`conf.py`文件中的`directory`变量
+
 ## TODO
 
 - [ ] 直接显示所有生词
