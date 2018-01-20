@@ -2,7 +2,7 @@
 
 > 这个工具用来记录粘贴板中的生词
 
-- status: dev
+- status: `alpha`
 
 
 ## 安装
