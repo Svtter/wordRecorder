@@ -3,8 +3,10 @@
 import json
 from time import time
 from clip import Recorder
+import conf
 
 content = None
+directory = conf.directory
 
 def save_word(word):
     """
@@ -12,7 +14,7 @@ def save_word(word):
     """
     start = time()
     global content
-    with open('/Users/xiuhao/Config/word.json', 'w+') as dic:
+    with open(directory, 'w+') as dic:
         content = dic.read()
         if content == '':
             content = '{}'
