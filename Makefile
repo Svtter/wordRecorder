@@ -8,3 +8,6 @@ install:
 	mkdir ~/Config
 	pip install pipenv
 	pipenv install
+
+stop:
+

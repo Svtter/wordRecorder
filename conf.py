@@ -1,3 +1,6 @@
 # coding: utf-8
 
-directory='~/Config/word.json'
+import os
+
+home = os.environ['HOME']
+directory = home + '/Config/word.json'
