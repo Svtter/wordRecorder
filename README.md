@@ -4,6 +4,10 @@
 
 - status: `alpha`
 
+## 例
+
+* 复制`a fox jump over the lazy doy`，不会记录。
+* 复制`fox`则会记录
 
 ## 安装
 
