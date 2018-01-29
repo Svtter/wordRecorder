@@ -2,5 +2,6 @@
 
 import os
 
+cloud = True
 home = os.environ['HOME']
 directory = home + '/Config/word.json'

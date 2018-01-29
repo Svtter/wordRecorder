@@ -3,15 +3,16 @@
 import json
 from time import time
 from clip import Recorder
+from cloud import save_word as save_cloud
 import conf
 import os
 
 content = None
 directory = conf.directory
 
-def save_word(word):
+def save_local(word):
     """
-
+    save word in local json file
     """
     start = time()
     global content
@@ -36,5 +37,8 @@ def save_word(word):
 
 if __name__ == '__main__':
     r = Recorder()
-    r.save_word = save_word
+    if conf.cloud:
+        r.save_word = save_cloud
+    else:
+        r.save_word = save_local
     r.run()
