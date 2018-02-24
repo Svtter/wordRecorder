@@ -8,6 +8,9 @@ name = "pypi"
 [packages]
 
 pyperclip = "*"
+leancloud = "*"
+flask = "*"
+tinydb = "*"
 
 
 [dev-packages]

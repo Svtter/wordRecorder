@@ -1,11 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# File              : cloud.py
+# Author            : Svtter <svtter@qq.com>
+# Date              : 05.02.2018
+# Last Modified Date: 24.02.2018
+# Last Modified By  : Svtter <svtter@qq.com>
 import leancloud
-
-
-AppID = ""
-AppKey = ""
+from conf import AppID, AppKey
 
 leancloud.init(AppID, AppKey)
-
 
 debug = False
 
